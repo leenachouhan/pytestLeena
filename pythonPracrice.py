@@ -232,40 +232,88 @@ for i in value:
 #     name1=name1+name[i]
 #     print(name1)
 # print(name1)
-value = ".|..|..|."
-value1 = ".|..|..|..|..|."
-value2 = "-------WELCOME-------"
-for j in range(7):
-    #print(j)
-    if j == 0 or j == 6:
+# value = ".|..|..|."
+# value1 = ".|..|..|..|..|."
+# value2 = "-------WELCOME-------" ".|."
+# for j in range(7):
+#     #print(j)
+#     if j == 0 or j == 6:
 
-        for i in range(21):
-            if i == 10:
-                print(".",end="")
-            elif i == 11:
-                print("|",end="")
-            elif i == 12:
-                print(".",end="")
-            else:
-                print("-",end="")
-    elif j == 1 or j == 5:
-        for i in range(13):
-            if i == 6:
-                print(value,end="")
-            else:
-                print("-",end="")
-    elif j == 2 or j == 4:
-        for i in range(7):
-            if i == 3:
-                print(value1,end="")
-            else:
-                print("-",end="")
-    else:
-        print(value2,end="")
+#         for i in range(21):
+#             if i == 10:
+#                 print(".",end="")
+#             elif i == 11:
+#                 print("|",end="")
+#             elif i == 12:
+#                 print(".",end="")
+#             else:
+#                 print("-",end="")
+#     elif j == 1 or j == 5:
+#         for i in range(13):
+#             if i == 6:
+#                 print(value,end="")
+#             else:
+#                 print("-",end="")
+#     elif j == 2 or j == 4:
+#         for i in range(7):
+#             if i == 3:
+#                 print(value1,end="")
+#             else:
+#                 print("-",end="")
+#     else:
+#         print(value2,end="")
 
-    print()
+#     print()
 
-    
+# Input: s = "([{}])"
+
+# Output: true
+# Input: s = "[(])"
+
+# Output: false
+
+# data = "([{}(]){)}" #6 3 open 3 close 1( 2[ 3{   4}  5]    6)
+# string = ""
+# string1 = ""
+# string2 = ""
+# #6 3 (==)=true, 
+
+ 
+
+# name = "leenachouhan"
+# dict1 = {}
+
+# for i in name:
+#     if i not in dict1:
+#         dict1[i] = 1
+#     else:
+#         dict1[i] += 1
+# print(dict1) 
+# for i,j in dict1.items():
+#     print(i,j)   
+
+# name = "leena"
+# print(name[::-1])
+
+# Capitalise 'l' in the given string and print the index of consecutive capital letters.
+# var1 = "hello world!!"
+# var2 = ""
+
+# for i in var1: #hell
+#     if i == "l": #he
+#         var2 = var2+i.upper() #heLL
+#     else: #
+#         var2 = var2 + i #he
+# print(var2)
+# j = 1
+# for i in range(len(var2)-1): 
+#     #print(var2[i],var2[j])
+#     if var2[i] == var2[j] == "L":
+#         print(i) 
+#     j += 1
+   
+     
+
     
     
 
